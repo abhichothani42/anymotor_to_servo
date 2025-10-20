@@ -37,17 +37,17 @@ The following are the main code files included in this project:
 
 ## Pin Connection
 
-![image](https://github.com/abhismirai10/PID_control_for_DC_motor/assets/121724635/6811a3d8-3286-4414-a76f-3cf1ce89edd9)
+![image](https://github.com/abhichothani42/anymotor_to_servo/blob/main/wiring_diagram/circuit_diagram_bb.jpg)
 
 ## PID implementation
 
-![image](https://github.com/abhismirai10/PID_control_for_DC_motor/assets/121724635/df3e0de5-628e-49ee-8fc0-dc0f22b71a3d)
+![image](https://github.com/abhichothani42/anymotor_to_servo/blob/main/assets/PID_control_details.png)
 
 ## Usage
 
 1. Clone the repository to your local machine:
     ```sh
-    git clone [https://github.com/abhismirai10/PID_control_for_DC_motor.git]
+    git clone [https://github.com/abhichothani42/anymotor_to_servo.git]
     ```
 2. Open the desired `.ino` file in the Arduino IDE.
 3. Upload the code to your Arduino board.
@@ -60,16 +60,15 @@ Feel free to contribute to this project by opening issues or submitting pull req
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+will be updated
 
 ## Acknowledgements
 
 - [Abhishek Chothani](https://github.com/abhismirai10)
-- Any other contributors or sources of inspiration
 
 ## Contact
 
-For any questions or suggestions, please open an issue on the GitHub repository or contact me at (email)(abhismirai10@gmail.com).
+For any questions or suggestions, please open an issue on the GitHub repository or contact me at (email)(achothani42@gmail.com).
 
 ---
 
