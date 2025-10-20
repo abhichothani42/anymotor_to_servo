@@ -1,6 +1,6 @@
-# DC Motor Control with PID
+# anymotor to servo
 
-This project demonstrates how to control two DC motors using position encoding and PID control. The implementation is step-by-step, with several test files included to ensure functionality along the way. The main code files for the project are attached in this repository.
+This project demonstrates how to control any motors position using encoding and PID control. The implementation is step-by-step, with several test files included to ensure functionality along the way. The main code files for the project are attached in this repository.
 
 ## Demonstration Video
 
@@ -10,7 +10,7 @@ I have created a YouTube video demonstrating the DC motor control using PID. Wat
 
 ## Project Overview
 
-The project is designed to control two DC motors with precision using PID control. The key features include:
+The project is designed to control DC motor with precision using PID control. I am planing to add other types of motors in future! The key features include:
 
 - **Position Encoding**: Tracking the position of the motors for accurate control.
 - **PID Control**: Implementing PID algorithms to maintain desired motor positions.
@@ -20,19 +20,20 @@ The project is designed to control two DC motors with precision using PID contro
 
 The following are the main code files included in this project:
 
-1. **PID_control_for_2DC.ino**: Main implementation file for controlling two DC motors using PID.
-2. **encoder_testing_2dc.ino**: Test file for verifying the encoder functionality with two DC motors.
-3. **dc_motor_test_2dc.ino**: Test file for basic DC motor operations.
+1. **01_Encoder_testing.ino**: Test file for verifying the encoder functionality.
+2. **02_dc_motor_with_encoder_test.ino**: Test file for basic DC motor with encoder operations.
+3. **03_PID_control_for_DC_motor_using_encoder.ino**: Main implementation file for controlling DC motor using PID control.
 
 ## Hardware
 
 1. DC Motor with a position encoder  
-   ![image](https://github.com/abhismirai10/PID_control_for_DC_motor/assets/121724635/a3b5f92c-6447-41d7-8eca-b77646844439)
+   ![image](https://a.pololu-files.com/picture/0J4045.1200.jpg?28764d04f44f69e259218bf608e862b4)
 
 2. Motor Driver  
-   ![image](https://github.com/abhismirai10/PID_control_for_DC_motor/assets/121724635/beb02a9c-0a30-4ae6-8522-6b5a92d7c390)
+   ![image](https://cdn-shop.adafruit.com/970x728/3190-09.jpg)
 
-3. Arduino Uno
+3. Arduino Mega
+   ![image](https://m.media-amazon.com/images/I/61sr9f-JppL._AC_UF894,1000_QL80_.jpg)
 
 ## Pin Connection
 
